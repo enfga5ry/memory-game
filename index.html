@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <title>Memory Game</title>
+  </head>
+  <body>
+    <div class="container-main">
+      <div class="control-btns">
+        <span>Start Game</span>
+      </div>
+      <div class="timer">
+        <span class="minutes">3</span> : 
+        <span class="seconds">00</span>
+      </div>
+      <div class="info-container">
+        <div class="name">
+          Hello: <span></span>
+        </div>
+        <div class="tries">
+          Wrong Tries: <span>0</span>
+        </div>
+      </div>
+  
+      <div class="memory-game-blocks">
+        <div class="game-block" data-tech="first">
+          <div class="front face"></div>
+          <div class="back face">
+            <img src="./img/images.png" alt="first">
+          </div>
+        </div>
+        <div class="game-block" data-tech="first">
+          <div class="front face"></div>
+          <div class="back face">
+            <img src="./img/images.png" alt="first">
+          </div>
+        </div>
+        <div class="game-block" data-tech="second">
+          <div class="front face"></div>
+          <div class="back face">
+            <img src="./img/Circle-icons-gamecontroller.svg.png" alt="second">
+          </div>
+        </div>
+        <div class="game-block" data-tech="second">
+          <div class="front face"></div>
+          <div class="back face">
+            <img src="./img/Circle-icons-gamecontroller.svg.png" alt="second">
+          </div>
+        </div>
+        <div class="game-block" data-tech="third">
+          <div class="front face"></div>
+          <div class="back face">
+            <img src="./img/Circle-icons-computer.svg.png" alt="third">
+          </div>
+        </div>
+        <div class="game-block" data-tech="third">
+          <div class="front face"></div>
+          <div class="back face">
+            <img src="./img/Circle-icons-computer.svg.png" alt="third">
+          </div>
+        </div>
+        <div class="game-block" data-tech="fourth">
+          <div class="front face"></div>
+          <div class="back face">
+            <img src="./img/Circle-icons-camera.svg.png" alt="fourth">
+          </div>
+        </div>
+        <div class="game-block" data-tech="fourth">
+          <div class="front face"></div>
+          <div class="back face">
+            <img src="./img/Circle-icons-camera.svg.png" alt="fourth">
+          </div>
+        </div>
+        <div class="game-block" data-tech="fifth">
+          <div class="front face"></div>
+          <div class="back face">
+            <img src="./img/6.jpg" alt="fifth">
+          </div>
+        </div>
+        <div class="game-block" data-tech="fifth">
+          <div class="front face"></div>
+          <div class="back face">
+            <img src="./img/6.jpg" alt="fifth">
+          </div>
+        </div>
+        <div class="game-block" data-tech="sixth">
+          <div class="front face"></div>
+          <div class="back face">
+            <img src="./img/Circle-icons-art.svg.png" alt="sixth">
+          </div>
+        </div>
+        <div class="game-block" data-tech="sixth">
+          <div class="front face"></div>
+          <div class="back face">
+            <img src="./img/Circle-icons-art.svg.png" alt="sixth">
+          </div>
+        </div>
+        <div class="game-block" data-tech="seventh">
+          <div class="front face"></div>
+          <div class="back face">
+            <img src="./img/2.jpg" alt="seventh">
+          </div>
+        </div>
+        <div class="game-block" data-tech="seventh">
+          <div class="front face"></div>
+          <div class="back face">
+            <img src="./img/2.jpg" alt="seventh">
+          </div>
+        </div>
+        <div class="game-block" data-tech="eighth">
+          <div class="front face"></div>
+          <div class="back face">
+            <img src="./img/3.jpg" alt="eighth">
+          </div>
+        </div>
+        <div class="game-block" data-tech="eighth">
+          <div class="front face"></div>
+          <div class="back face">
+            <img src="./img/3.jpg" alt="eighth">
+          </div>
+        </div>
+        <div class="game-block" data-tech="ninth">
+          <div class="front face"></div>
+          <div class="back face">
+            <img src="./img/4.jpg" alt="ninth">
+          </div>
+        </div>
+        <div class="game-block" data-tech="ninth">
+          <div class="front face"></div>
+          <div class="back face">
+            <img src="./img/4.jpg" alt="ninth">
+          </div>
+        </div>
+        <div class="game-block" data-tech="last">
+          <div class="front face"></div>
+          <div class="back face">
+            <img src="./img/5.jpg" alt="last">
+          </div>
+        </div>
+        <div class="game-block" data-tech="last">
+          <div class="front face"></div>
+          <div class="back face">
+            <img src="./img/5.jpg" alt="last">
+          </div>
+        </div>
+      </div>
+      <div class="leaderboard">
+  
+      </div>
+      
+  
+      <audio src="./audio/success-1-6297.mp3" preload="auto" id="success"></audio>
+      <audio src="./audio/wah-wah-sad-trombone-6347.mp3" preload="auto" id="fail"></audio>
+      <audio src="./audio/Powerful-Trap-.mp3" id="starting-game" preload="auto"></audio>
+      <audio src="./audio/winning.mp3" id="winning" preload="auto"></audio>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
